@@ -244,3 +244,27 @@ letter-spacing: 0.03em;
     letter-spacing: 0.03em;
   }
 
+  .filter {
+    color: var(--title-text-color);
+    background: #F5F4FA;;
+  }
+
+  .filter:hover,
+  .filter:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-text-color);
+  }
+/* title galety styles */
+.title-galery {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+/* text exemple style */
+.text-galery {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+}
