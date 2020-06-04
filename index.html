@@ -14,13 +14,14 @@
 <!-- навигация со ссылками по сайту -->
     <nav class="nav-header">
       <a href="/" class="link-logo"><span class="logo">Web </span>
-         <span class="logo-studio">Studio</span> </a>
+         <span class="logo-studio">Studio</span>
+      </a>
       <ul class="list-header">
         <li>
           <a href="" class="link">Студия</a>
         </li>
         <li>
-          <a href="" class="link">Портфолио</a>
+          <a href="portfolio.html" class="link">Портфолио</a>
         </li>
         <li>
           <a href="" class="link">Контакты</a>
@@ -28,7 +29,7 @@
       </ul>
 <!-- контакты -->
     <address class="address-header"> 
-      <ul class="list-header">
+      <ul class="list-address">
         <!-- електроннaя почтa -->
         <li>
           <a href="mailto:info@devstudio.com" class="link">
@@ -108,7 +109,7 @@
       </ul>
     </section>
     <!-- секция Наша команда -->
-    <section class="section-team">
+    <section class="section">
       <h2 class="section-title">Наша команда</h2>
       <!-- Таблица карточек команды -->
       <ul class="list-team">
@@ -253,7 +254,7 @@
         </li>
         <li>
           <a href="" class="link">
-            <img src="./images/fosterPeters.svg" alt="foster peters">
+            <img src="./images/fosterPeters.svg" alt="foster peters" class="logo-client">
           </a>
         </li>
         <li>
@@ -270,22 +271,24 @@
     </section>
   </main> 
   <!-- footer -->
-  <footer>
-    <a href="/"><span> Web </span>Studio</a>
+  <footer class="footer">
+    <a href="/" class="link-logo"><span class="logo">Web </span>
+      <span class="logo-studio">Studio</span>
+    </a>
     <!-- footer контакты -->
     <div>
-      <address>
+      <address class="footer-address">
         г. Киев, пр-т Леси Украинки, 26
       </address>
-      <address>
+      <address class="footer-contact">
         <a href="mailto:info@example.com" class="link">info@example.com</a><br>
         <a href="tel:+38 099 111 11 11" class="link">+38 099 111 11 11</a>
       </address>
     </div>
     <!-- footer социальные сети -->
     <div>
-      <b>присоединяйтесь</b>
-      <ul class="list">
+      <b class="cosial-subscribe">присоединяйтесь</b>
+      <ul class="list-subscribe">
         <li>
           <a href="" aria-label="Ссылка на Instagram" class="link">
             Instagram
@@ -310,7 +313,7 @@
     </div>
       <!-- footer подписка -->
     <div>
-      <b>Подпишитесь на рассылку</b>   
+      <b class="cosial-subscribe">Подпишитесь на рассылку</b>   
       <input type="text" value="E-mail">
       <button>
         <a href="" class="link">        
@@ -320,7 +323,7 @@
       </button>
     </div>
     <div>
-      <p>&copy;2020 | Developed by GoIT Students </p>
+      <p class="copywriting">&copy;2020 | Developed by GoIT Students </p>
     </div>
   </footer>
 </body>
